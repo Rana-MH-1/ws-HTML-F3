@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WS HTML</title>
+  </head>
+  <body>
+    <!--this is the first comment -->
+    <!-- semantic tags -->
+    <header id="TopOfThePage">
+      <nav>
+        <!-- affichage de liste non ordonnée-->
+        <ul type="square">
+          <li>About</li>
+          <li>Profile</li>
+          <li>Contact</li>
+        </ul>
+        <!-- affichage de liste ordonnée-->
+        <ol type="I">
+          <!-- Nested tags-->
+          <li><a target="_blank" href="./Pages/About.html">ABOUT</a></li>
+          <li><a target="_blank" href="./Pages/Profile.html">Profile</a></li>
+          <li><a target="_blank" href="./Pages/Contact.html">Contact</a></li>
+        </ol>
+      </nav>
+      <!--headings h1==> h6-->
+      <h1>this is a haeding title h1</h1>
+      <h2>this is a haeding title h2</h2>
+      <h3>this is a haeding title h3</h3>
+      <h4>this is a haeding title h4</h4>
+      <h5>this is a haeding title h1</h5>
+      <h6>this is a haeding title h1</h6>
+      <!--span is an inline element-->
+      <span>Hello</span>
+      <span>Hello2</span>
+      <!-- example of block element-->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ad nemo,
+        facere, asperiores dolorem incidunt hic dolorum nesciunt sed qui cum
+        dicta reiciendis et inventore explicabo eveniet deleniti, beatae
+        corporis!
+      </p>
+      <!-- link using a tag ==> URL-->
+      <a
+        target="_blank"
+        href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal"
+        >LIEN</a
+      >
+      <!-- Link into local page that we create-->
+      <a target="_blank" href="./Pages/Profile.html">LIEN2</a>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem magni numquam dolor quasi animi optio, sit odit enim voluptates ad, sequi laborum dolorum a. Dolores doloribus quasi modi deserunt consequatur.</p>
+        <section name="select balise">
+            <!--select el-->
+            <select>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JAvaScript</option>
+            </select>
+        </section>
+        <section>
+            <!--audio tag-->
+            <audio controls>
+                <source src="......" type="audio/ogg" >
+            </audio>
+            <!--video tag-->
+            <video controls>
+                <audio src="..." type="video/mp4">
+            </video>
+        </section>
+        <section name="iframe tag">
+            <!-- iframe works like displaying the content of the whole page-->
+            <iframe src="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">
+            </iframe>
+             <!-- iframe works like video tag-->
+            <iframe src="https://www.youtube.com/embed/q3yFo-t1ykw">
+
+            </iframe>
+
+        </section>
+        <section>
+          <img src="./images.png">
+          <img src="./Images/user.png">
+        </section>
+    </main>
+    <footer>
+        <h5>@copyrights AERO BLUE CAVALIER - 2022</h5>
+        <h6><a href="#TopOfThePage">GO TO THE TOP</a></h6>
+    </footer>
+  </body>
+</html>
